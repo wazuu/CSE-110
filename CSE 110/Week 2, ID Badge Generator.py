@@ -1,0 +1,21 @@
+print("Please Enter the Following Information:")
+
+print()
+
+first = input("First Name:")
+last = input("Last Name:")
+email = input("Email Address:")
+phone = input("Phone Number:")
+job_title = input("Job Title:")
+id_number = input("ID Number:")
+
+print("\nThe ID Card is:")
+print("------------------------")
+print(f"{last.upper()}, {first.capitalize()}")
+print(job_title.title())
+print(f"ID: {id_number}")
+print()
+print(email.lower())
+print(phone)
+print("------------------------")
+print("Please Press ENTER to Escape")
